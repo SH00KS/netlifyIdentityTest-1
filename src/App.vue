@@ -44,7 +44,6 @@ export default {
       })
         .then((response) => {
           console.log("fetcheddd");
-          console.log(response);
           return response.json();
         })
         .then((updatedUser) => {

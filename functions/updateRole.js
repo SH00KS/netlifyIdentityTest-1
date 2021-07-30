@@ -31,7 +31,6 @@ exports.handler = async (event, context) => {
         }
       })
         .then((response) => {
-          console.log(response.json());
           return response.json();
         })
         .then((updatedUser) => {
